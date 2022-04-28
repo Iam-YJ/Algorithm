@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8405bec5-c395-45cb-b137-aa7e166403ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/272c2b9eeedaeb02f5a008724db640509b0e152c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/580ac61a1f07a1a6810a5bffe038dd822b92b2a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/CodeUp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeUp/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/LeetCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/src/TwoSum.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/WordStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/WordStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NHN/NHN_SRC/HTTP/simpleCurl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.WordStudy">
     <configuration name="DiceWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -119,6 +130,9 @@
       <workItem from="1650373894003" duration="2970000" />
       <workItem from="1650377266338" duration="33000" />
       <workItem from="1650781185489" duration="8046000" />
+      <workItem from="1650796614868" duration="673000" />
+      <workItem from="1650850822335" duration="55000" />
+      <workItem from="1651140019145" duration="2311000" />
     </task>
     <servers />
   </component>
@@ -148,11 +162,6 @@
           <url>file://$PROJECT_DIR$/src/method/SelfNumber.java</url>
           <line>15</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/WordStudy.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
