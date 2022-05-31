@@ -17,6 +17,7 @@ public class WordStudy {
 
         for (Character character : word.toCharArray()) {
             wordList.add(character);
+
         }
 
         Map<Character, Integer> wordCount = new HashMap<>();
