@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8405bec5-c395-45cb-b137-aa7e166403ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Algorithm.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/CodeUp.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
@@ -15,8 +16,10 @@
       <change beforePath="$PROJECT_DIR$/../LeetCode/LeetCode.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/TwoSum.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode/src/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/WordStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/WordStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/string/WordStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/string/WordStudy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/GroupWordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/GroupWordChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager" selected="Application.WordStudy">
-    <configuration name="DiceWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iftest.DiceWorld" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/park/Desktop/Algorithm/baekjoon&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Star">
+    <configuration name="GroupWordChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.GroupWordChecker" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iftest.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OvenTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iftest.OvenTimer" />
+    <configuration name="Star" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.Star" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iftest.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="method.SelfNumber" />
+    <configuration name="WhatIsRecursiveFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.WhatIsRecursiveFunction" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="method.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,20 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="baekjoon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon" />
+    <configuration name="seasack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inputoutput.seasack" />
       <module name="baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inputoutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Star" />
+        <item itemvalue="Application.WhatIsRecursiveFunction" />
+        <item itemvalue="Application.GroupWordChecker" />
+        <item itemvalue="Application.seasack" />
         <item itemvalue="Application.WordStudy" />
-        <item itemvalue="Application.SelfNumber" />
-        <item itemvalue="Application.DiceWorld" />
-        <item itemvalue="Application.OvenTimer" />
-        <item itemvalue="Application.baekjoon" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +144,11 @@
       <workItem from="1650796614868" duration="673000" />
       <workItem from="1650850822335" duration="55000" />
       <workItem from="1651140019145" duration="2311000" />
+      <workItem from="1653646860000" duration="1796000" />
+      <workItem from="1653797194157" duration="1914000" />
+      <workItem from="1653869633172" duration="177000" />
+      <workItem from="1654005541614" duration="5459000" />
+      <workItem from="1654063660907" duration="13642000" />
     </task>
     <servers />
   </component>
@@ -162,6 +178,26 @@
           <url>file://$PROJECT_DIR$/src/method/SelfNumber.java</url>
           <line>15</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/GroupWordChecker.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/Factorial.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/Star.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursive/Star.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

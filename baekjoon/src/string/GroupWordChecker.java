@@ -1,8 +1,6 @@
 package string;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Scanner;
 
 public class GroupWordChecker {
@@ -22,19 +20,25 @@ public class GroupWordChecker {
     }
 
     static int wordChecker(String word) {
-        int result = 0;
         char[] wordArray = word.toCharArray();
         HashSet<Character> characterHashSet = new HashSet<>();
 
         char prev = ' ';
+        boolean flag = false;
 
         for (int i = 0; i < wordArray.length; i++) {
-            prev = wordArray[i];
-            for (int j = 0; j < i; j++) {
+            char now = wordArray[i]; // 현재 문자 저장
 
+            if (prev != now) {
+                if (!flag) {
+                    flag = true;
+                    prev = now;
+                } else {
+                    return 0;
+                }
             }
         }
 
-        return 0;
+        return 1;
     }
 }
