@@ -17,9 +17,6 @@
       <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/TwoSum.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode/src/TwoSum.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/string/WordStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/string/WordStudy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/GroupWordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/GroupWordChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/park/Desktop/Algorithm/baekjoon&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/park/Desktop/NHN/NHN_SRC/Spring_BOOT/student/student",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Star">
     <configuration name="GroupWordChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.GroupWordChecker" />
@@ -149,6 +146,7 @@
       <workItem from="1653869633172" duration="177000" />
       <workItem from="1654005541614" duration="5459000" />
       <workItem from="1654063660907" duration="13642000" />
+      <workItem from="1654563664135" duration="401000" />
     </task>
     <servers />
   </component>
