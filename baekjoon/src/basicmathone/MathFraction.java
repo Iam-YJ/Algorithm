@@ -2,7 +2,7 @@ package basicmathone;
 
 import java.util.Scanner;
 
-public class MathFractions {
+public class MathFraction {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

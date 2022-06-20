@@ -1,8 +1,8 @@
-package basicmathone;
+package basicmathtwo;
 
 import java.util.Scanner;
 
-public class MathFractions {
+public class Hi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
