@@ -17,6 +17,12 @@
       <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/TwoSum.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode/src/TwoSum.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/basicmathone/MathFractions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/recursive/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/recursive/Star.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursive/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursive/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wins/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +48,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/park/Desktop/NHN/NHN_SRC/Spring_BOOT/student/student",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/park/Desktop/Algorithm/baekjoon&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Star">
-    <configuration name="GroupWordChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.GroupWordChecker" />
+}</component>
+  <component name="RunManager" selected="Application.BlackJack">
+    <configuration name="Bert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicmathtwo.Bert" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="basicmathtwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bruteforce.BlackJack" />
+      <module name="baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bruteforce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoldBagh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicmathtwo.GoldBagh" />
+      <module name="baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicmathtwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,39 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.WordStudy" />
-      <module name="baekjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="seasack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inputoutput.seasack" />
-      <module name="baekjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inputoutput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlackJack" />
         <item itemvalue="Application.Star" />
+        <item itemvalue="Application.GoldBagh" />
+        <item itemvalue="Application.Bert" />
         <item itemvalue="Application.WhatIsRecursiveFunction" />
-        <item itemvalue="Application.GroupWordChecker" />
-        <item itemvalue="Application.seasack" />
-        <item itemvalue="Application.WordStudy" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +153,10 @@
       <workItem from="1654005541614" duration="5459000" />
       <workItem from="1654063660907" duration="13642000" />
       <workItem from="1654563664135" duration="401000" />
+      <workItem from="1655712369980" duration="6200000" />
+      <workItem from="1655736277538" duration="1835000" />
+      <workItem from="1655768745389" duration="12397000" />
+      <workItem from="1655808188202" duration="4190000" />
     </task>
     <servers />
   </component>
@@ -186,16 +196,6 @@
           <url>file://$PROJECT_DIR$/src/recursive/Factorial.java</url>
           <line>11</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/recursive/Star.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/recursive/Star.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
