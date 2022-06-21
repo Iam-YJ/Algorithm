@@ -3,8 +3,12 @@ package basicmathtwo;
 import java.util.Scanner;
 
 public class Bert {
+
+    public static boolean[] numArray = new boolean[246913];
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
 
         while (true) {
             int number = scanner.nextInt();
@@ -16,22 +20,24 @@ public class Bert {
     }
 
     public static void Decimal(int num) {
-        int [] numArray = new int[246912];
         int doubleNum = (num * 2);
+        numArray[0] = numArray[1] = true;
 
-        for (int i = 0; i <= doubleNum; i++) {
-            numArray[i] = i;
-        }
-
-        for (int i = 2; i <= doubleNum ; i++) {
-            if(numArray[i] == 0){
+        for (int i = 2; i <= Math.sqrt(numArray.length); i++) {
+            if (numArray[i]) {
                 continue;
             }
-
-            for (int j = 2*i; j <=  ; j++) {
-
+            for (int j = i * i; j < numArray.length; j += i) {
+                numArray[j] = true;
             }
         }
-
+        int count = 0;
+        for (int i = num+1; i <= doubleNum; i++) {
+            if (!numArray[i]) {
+                count++;
+            }
+        }
+        System.out.println(count);
     }
+
 }
