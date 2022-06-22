@@ -21,8 +21,8 @@ public class BlackJack {
 
     public static void BlackJack(int M, int[] cards) {
         // M을 넘지 않으면서 M에 최대한 가까운 카드 3장의 합 출력
-        BlackJack.min = Math.abs((cards[0] + cards[1] + cards[2]) - M);
-        BlackJack.tempNum = (cards[0] + cards[1] + cards[2]);
+        min = Math.abs((cards[0] + cards[1] + cards[2]) - M);
+        tempNum = (cards[0] + cards[1] + cards[2]);
 
         for (int i = 0; i < cards.length - 2; i++) {
             for (int j = i + 1; j < cards.length - 1; j++) {
@@ -33,19 +33,19 @@ public class BlackJack {
                 }
             }
         }
-        System.out.println(BlackJack.tempNum);
+        System.out.println(tempNum);
     }
 
     public static void Sum(int numA, int numB, int numC, int M) {
         int sum = numA + numB + numC;
 
         if (sum == M) {
-            BlackJack.tempNum = sum;
+            tempNum = sum;
         }
 
-        if (sum < M && Math.abs(M - sum) < BlackJack.min) {
-            BlackJack.min = Math.abs(M - sum);
-            BlackJack.tempNum = sum;
+        if (sum < M && Math.abs(M - sum) < min) {
+            min = Math.abs(M - sum);
+            tempNum = sum;
         }
     }
 }
