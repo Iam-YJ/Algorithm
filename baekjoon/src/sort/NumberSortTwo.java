@@ -1,5 +1,6 @@
 package sort;
 
+import javax.imageio.metadata.IIOMetadataFormatImpl;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -15,11 +16,12 @@ public class NumberSortTwo {
             numArr.add(scanner.nextInt());
         }
 
-        numArr = Quick(numArr);
-
-        for (int i = 0; i < numArr.size(); i++) {
-            System.out.println(numArr.get(i));
-        }
+//        numArr = Quick(numArr);
+        numArr = Merge(numArr);
+//
+//        for (int i = 0; i < numArr.size(); i++) {
+//            System.out.println(numArr.get(i));
+//        }
     }
 
     public static List<Integer> Quick(List<Integer> list) {
@@ -51,5 +53,33 @@ public class NumberSortTwo {
         return joined;
     }
 
+    public static List<Integer> Merge(List<Integer> list){
+        List<Integer> answer = new ArrayList<>();
+
+        if(list.size() == 0 || list.size() == 1){
+            return list;
+        }
+
+        List<Integer> left = new ArrayList<>();
+        List<Integer> right = new ArrayList<>();
+
+        int range = list.size()/2;
+        for (int i = 0; i < range; i++) {
+            left.add(list.get(i));
+        }
+        for (int i = range; i < list.size(); i++) {
+            right.add(list.get(i));
+        }
+
+        for (int i = 0; i < left.size(); i++) {
+            if(left.get(i) < right.get(i)){
+                answer.add(left.get(i));
+            }else{
+                answer.add(right.get(i));
+            }
+        }
+        System.out.println(answer);
+        return answer;
+    }
 
 }
