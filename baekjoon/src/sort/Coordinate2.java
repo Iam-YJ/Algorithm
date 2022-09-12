@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class coordinate2 {
+public class Coordinate2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
