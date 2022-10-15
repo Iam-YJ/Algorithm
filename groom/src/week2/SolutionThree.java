@@ -10,23 +10,17 @@ public class SolutionThree {
         int count = scanner.nextInt();
         int findNum = scanner.nextInt();
 
-        String[][] nameArr = new String[count][2];
-        int[][] heightArr = new int[count][2];
+        String[][] arrays = new String[count][2];
 
         for (int i = 0; i < count; i++) {
-            nameArr[i][1] = scanner.next();
-            heightArr[i][1] = scanner.nextInt();
-
-            nameArr[i][0] = String.valueOf(i);
-            heightArr[i][0] = i;
-
-
+            arrays[i][0] = scanner.next();
+            arrays[i][1] = scanner.next();
         }
 
-        String name = nameArr[0][0];
-        for (int i = 1; i < nameArr.length; i++) {
-            if(name.equals(nameArr[i][0])){
-                Arrays.sort(nameArr[1]);
+        String name = arrays[0][0];
+        for (int i = 1; i < arrays.length; i++) {
+            if(name.equals(arrays[i][0])){
+                Arrays.sort(arrays[1]);
             }
         }
 
