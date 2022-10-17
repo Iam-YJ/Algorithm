@@ -11,17 +11,20 @@ public class SolutionThreeRev {
         int peopleCount = scanner.nextInt();
         int findNum = scanner.nextInt();
 
-        List<week3.Attendance> attendances = new ArrayList<>();
+        List<Attendance> attendances = new ArrayList<>();
 
         for (int i = 0; i < peopleCount; i++) {
-            attendances.add(new week3.Attendance(scanner.next(), scanner.next()));
+            String name = scanner.next();
+            Double score = scanner.nextDouble();
+            attendances.add(new Attendance(name, score));
         }
 
-        attendances.sort(Comparator.comparing(week3.Attendance::getName).thenComparing(week3.Attendance::getScore));
+        attendances.sort(Comparator.comparing(Attendance::getName).thenComparing(Attendance::getScore));
 
         for (int i = 0; i < attendances.size(); i++) {
-            if (i == (findNum-1)) {
-                System.out.println(attendances.get(i).toString());
+            if (i == (findNum - 1)) {
+                System.out.print(attendances.get(i).getName() + " ");
+                System.out.printf("%.2f", attendances.get(i).getScore());
             }
         }
     }
@@ -29,24 +32,23 @@ public class SolutionThreeRev {
 
 class Attendance {
     String name;
-    String scoreStr;
-    int score;
+    Double score;
 
-    public Attendance(String name, String scoreStr) {
+    public Attendance(String name, Double score) {
         this.name = name;
-        this.scoreStr = (scoreStr);
+        this.score = (score);
     }
 
     public String getName() {
         return name;
     }
 
-    public int getScore() {
+    public Double getScore() {
         return score;
     }
 
     @Override
     public String toString() {
-        return name + ' ' + scoreStr;
+        return name + ' ' + score;
     }
 }
