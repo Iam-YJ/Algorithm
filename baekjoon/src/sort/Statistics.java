@@ -29,7 +29,7 @@ public class Statistics {
         // 중앙값
         System.out.println(sortNum[len / 2]);
         // 최빈값
-        System.out.println(mid);
+//        System.out.println(mid);
         // 범위
         System.out.println(Math.abs(sortNum[len-1] - sortNum[0]));
 

@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8405bec5-c395-45cb-b137-aa7e166403ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Algorithm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/CodeUp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeUp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeUp/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/LeetCode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/src/TwoSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/bruteforce/BlackJack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/bruteforce/BlackJack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wins/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/NumberSortTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/sort/NumberSortTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Statistics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/park/Desktop/Algorithm_CodingTest/algorithm/src",
+    "last_opened_file_path": "C:/Users/User/Desktop/Algorithm/groom",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -60,13 +45,13 @@
       <recent name="bruteforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberSortTwo">
-    <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bruteforce.Chess" />
+  <component name="RunManager" selected="Application.Lcm">
+    <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numbertheory.Factor" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bruteforce.*" />
+          <option name="PATTERN" value="numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.NumberSort" />
+    <configuration name="GdcAndLcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numbertheory.GdcAndLcm" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSortTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.NumberSortTwo" />
+    <configuration name="Hockey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geometry1.Hockey" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="geometry1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bruteforce.Shun" />
+    <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numbertheory.Lcm" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bruteforce.*" />
+          <option name="PATTERN" value="numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShunTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bruteforce.ShunTwo" />
+    <configuration name="Multiples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numbertheory.Multiples" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bruteforce.*" />
+          <option name="PATTERN" value="numbertheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberSortTwo" />
-        <item itemvalue="Application.NumberSort" />
-        <item itemvalue="Application.ShunTwo" />
-        <item itemvalue="Application.Shun" />
-        <item itemvalue="Application.Chess" />
+        <item itemvalue="Application.Lcm" />
+        <item itemvalue="Application.GdcAndLcm" />
+        <item itemvalue="Application.Factor" />
+        <item itemvalue="Application.Multiples" />
+        <item itemvalue="Application.Hockey" />
       </list>
     </recent_temporary>
   </component>
