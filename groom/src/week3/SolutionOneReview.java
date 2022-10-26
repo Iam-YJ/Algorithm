@@ -1,21 +1,17 @@
 package week3;
 
-import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Scanner;
 
 public class SolutionOneReview {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int count = scanner.nextInt();
+        int sum = 0;
 
-        Map<String, Boolean> placeOpen = new HashMap<>();
-        placeOpen.put("test ,map", true);
+        for (int i = 0; i < count; i++) {
+            sum += scanner.nextInt();
+        }
 
-        Map<String, Boolean> placeDetailInfo = new HashMap<>();
-        placeOpen.put("test ,map", false);
-
-        Place place = new Place(1L, 1L, "TEST", "TEST", placeOpen, LocalDateTime.now(), LocalDateTime.now(),placeDetailInfo, 1);
-
-
-
+        System.out.println(sum);
     }
 }
