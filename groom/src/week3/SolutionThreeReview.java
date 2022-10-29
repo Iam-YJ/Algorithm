@@ -12,7 +12,7 @@ public class SolutionThreeReview {
 
         boolean visited[] = new boolean[n + 1];
 
-        LinkedList<Integer>[] adList = new LinkedList<>[n + 1];
+        LinkedList<Integer>[] adList = new LinkedList[n + 1];
 
         for (int i = 0; i <= n; i++) {
             adList[i] = new LinkedList<Integer>();
