@@ -3,14 +3,20 @@ package week3;
 import java.util.*;
 
 public class SolutionFourReview {
+
+    static boolean[] visted; // 방문 여부 기록용
+    static ArrayList<Integer> cycle = new ArrayList<>(); //
+    static LinkedList<Integer>[] waterMap;
+
+    static int find = -1;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt(); // 물탱크 수, 수로의 수
-        boolean[] visted = new boolean[n+1];
+        visted = new boolean[n + 1];
+        waterMap = new LinkedList[n + 1];
 
-        LinkedList<Integer>[] waterMap = new LinkedList[n+1];
-
-        for (int i = 0; i <= n ; i++) {
+        for (int i = 0; i <= n; i++) {
             waterMap[i] = new LinkedList<Integer>();
         }
 
@@ -21,32 +27,40 @@ public class SolutionFourReview {
             waterMap[end].add(start);
         }
 
-        for (int i = 0; i <= n; i++) {
-            Collections.sort(waterMap[i]);
-        }
+        dfs(1, 1);
 
-        bfs(n, waterMap, visted);
 
     }
 
-    public static void bfs(int n, LinkedList<Integer>[] waterMap, boolean[] visited){
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(n);
-        visited[n] = true;
+    public static void dfs(int node, int point) {
+        if (visted[node]) {
+            find = node;
+            cycle.add(node);
+            return;
+        }
 
-        while(!queue.isEmpty()){
-            n = queue.poll();
-            System.out.print(n + " ");
+        visted[node] = true;
 
-            Iterator<Integer> iter = waterMap[n].listIterator();
-            while(iter.hasNext()){
-                int w = iter.next();
-                if(!visited[w]){
-                    visited[w] = true;
-                    queue.add(w);
-                }
+
+        for (int i : waterMap[node]) {
+            if (i == point) {
+                continue;
+            }
+            dfs(i, node);
+
+            if (find == -2) {
+                return;
             }
 
+            if (find == node) {
+                find = -2;
+                return;
+            }
+
+            if (find >= 0) {
+                return;
+            }
         }
     }
+
 }
