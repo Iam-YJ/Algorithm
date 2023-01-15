@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8405bec5-c395-45cb-b137-aa7e166403ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/NumberSortTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/sort/NumberSortTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/baekjoon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/numbertheory/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/numbertheory/Check.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +34,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/Desktop/Algorithm/groom",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yujin/Desktop/Algorithm/baekjoon&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bruteforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lcm">
+  <component name="RunManager" selected="Application.GuitarLesson">
     <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="numbertheory.Factor" />
       <module name="baekjoon" />
@@ -72,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hockey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geometry1.Hockey" />
+    <configuration name="GuitarLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearch.GuitarLesson" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geometry1.*" />
+          <option name="PATTERN" value="binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,26 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numbertheory.Multiples" />
+    <configuration name="baekjoon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon" />
       <module name="baekjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="numbertheory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuitarLesson" />
+        <item itemvalue="Application.baekjoon" />
         <item itemvalue="Application.Lcm" />
         <item itemvalue="Application.GdcAndLcm" />
         <item itemvalue="Application.Factor" />
-        <item itemvalue="Application.Multiples" />
-        <item itemvalue="Application.Hockey" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +151,10 @@
       <workItem from="1655965446792" duration="15343000" />
       <workItem from="1656077343635" duration="8383000" />
       <workItem from="1656127588808" duration="52000" />
+      <workItem from="1673761566315" duration="155000" />
+      <workItem from="1673762054207" duration="50000" />
+      <workItem from="1673763034067" duration="1366000" />
+      <workItem from="1673770791489" duration="908000" />
     </task>
     <servers />
   </component>
@@ -213,6 +219,16 @@
           <url>file://$PROJECT_DIR$/src/sort/NumberSort.java</url>
           <line>15</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/GuitarLesson.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binarysearch/GuitarLesson.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
