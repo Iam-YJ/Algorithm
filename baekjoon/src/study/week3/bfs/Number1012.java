@@ -1,4 +1,4 @@
-package bfs;
+package study.week3.bfs;
 
 import java.io.BufferedReader;
 import java.io.IOException;

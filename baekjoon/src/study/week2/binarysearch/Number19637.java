@@ -1,11 +1,11 @@
-package binarysearch;
+package study.week2.binarysearch;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class If {
+public class Number19637 {
     static List<Character> characterList = new ArrayList<>();
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 

@@ -1,9 +1,9 @@
-package binarysearch;
+package study.week2.binarysearch;
 
 import java.io.*;
 import java.util.*;
 
-public class LanCut {
+public class Number1654 {
     public static List<Integer> lanList = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {

@@ -1,4 +1,4 @@
-package binarysearch;
+package study.week2.binarysearch;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Budget {
+public class Number2512 {
     public static List<Integer> requestBudgets = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {

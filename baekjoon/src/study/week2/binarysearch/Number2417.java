@@ -1,8 +1,8 @@
-package binarysearch;
+package study.week2.binarysearch;
 
 import java.io.*;
 
-public class NumSqrt {
+public class Number2417 {
     public static void main(String[] args) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

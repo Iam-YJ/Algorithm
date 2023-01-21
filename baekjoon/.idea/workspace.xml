@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8405bec5-c395-45cb-b137-aa7e166403ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/baekjoon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/numbertheory/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/numbertheory/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/GuitarLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/GuitarLesson.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,41 +43,17 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bfs" />
       <recent name="bruteforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuitarLesson">
-    <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numbertheory.Factor" />
-      <module name="baekjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="numbertheory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GdcAndLcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numbertheory.GdcAndLcm" />
-      <module name="baekjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="numbertheory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Number18352">
     <configuration name="GuitarLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarysearch.GuitarLesson" />
       <module name="baekjoon" />
@@ -93,12 +67,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numbertheory.Lcm" />
+    <configuration name="Number1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bfs.Number1012" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numbertheory.*" />
+          <option name="PATTERN" value="bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Number10121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bfs.Number10121" />
+      <module name="baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Number18352" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bfs.Number18352" />
+      <module name="baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Number18352" />
+        <item itemvalue="Application.Number1012" />
+        <item itemvalue="Application.Number10121" />
         <item itemvalue="Application.GuitarLesson" />
         <item itemvalue="Application.baekjoon" />
-        <item itemvalue="Application.Lcm" />
-        <item itemvalue="Application.GdcAndLcm" />
-        <item itemvalue="Application.Factor" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,11 @@
       <workItem from="1673761566315" duration="155000" />
       <workItem from="1673762054207" duration="50000" />
       <workItem from="1673763034067" duration="1366000" />
-      <workItem from="1673770791489" duration="908000" />
+      <workItem from="1673770791489" duration="1461000" />
+      <workItem from="1673873482482" duration="1459000" />
+      <workItem from="1674294378284" duration="2603000" />
+      <workItem from="1674299119733" duration="4452000" />
+      <workItem from="1674312150276" duration="4013000" />
     </task>
     <servers />
   </component>
@@ -221,14 +225,19 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/binarysearch/GuitarLesson.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="28" />
+          <url>file://$PROJECT_DIR$/src/bfs/Number1012.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/binarysearch/GuitarLesson.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="29" />
+          <url>file://$PROJECT_DIR$/src/bfs/Number1012.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bfs/Number18352.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package sort;
+package study.week1;
 
 import java.util.*;
 
