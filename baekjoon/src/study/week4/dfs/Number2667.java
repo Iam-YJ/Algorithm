@@ -58,8 +58,7 @@ public class Number2667 {
                 continue;
             }
             if (!checkGraph[newX][newY] && graph[newX][newY] == '1') {
-                checkGraph[newX][newY] = true;
-
+//                checkGraph[newX][newY] = true;
                 DFS(newX, newY);
             }
         }

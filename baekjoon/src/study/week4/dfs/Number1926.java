@@ -60,7 +60,7 @@ public class Number1926 {
                 continue;
             }
             if (!checkedPaper[newX][newY] && paper[newX][newY] == 1) {
-                checkedPaper[newX][newY] = true;
+//                checkedPaper[newX][newY] = true;
                 DFS(newX, newY);
             }
         }
