@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="8405bec5-c395-45cb-b137-aa7e166403ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/GuitarLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/GuitarLesson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/bfs/Number1012.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/bfs/Number18352.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/Budget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/FindNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/GuitarLesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/If$Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/If.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/LanCut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/NumSqrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/NumberCard2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/binarysearch/SnackShare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/ATM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/BigNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/ConferenceRoom$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/ConferenceRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/FindNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/Treasure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/sort/TwoNumAdd.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +66,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="study.week4.dfs" />
       <recent name="bfs" />
       <recent name="bruteforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Number18352">
-    <configuration name="GuitarLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearch.GuitarLesson" />
+  <component name="RunManager" selected="Application.Number11047">
+    <configuration name="Number11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week5.greedy.Number11047" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearch.*" />
+          <option name="PATTERN" value="study.week5.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bfs.Number1012" />
+    <configuration name="Number1213" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week5.greedy.Number1213" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bfs.*" />
+          <option name="PATTERN" value="study.week5.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number10121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bfs.Number10121" />
+    <configuration name="Number14916" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week5.greedy.Number14916" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bfs.*" />
+          <option name="PATTERN" value="study.week5.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number18352" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bfs.Number18352" />
+    <configuration name="Number1926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week4.dfs.Number1926" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bfs.*" />
+          <option name="PATTERN" value="study.week4.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,20 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="baekjoon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon" />
+    <configuration name="Number2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week4.dfs.Number2667" />
       <module name="baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.week4.dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Number18352" />
-        <item itemvalue="Application.Number1012" />
-        <item itemvalue="Application.Number10121" />
-        <item itemvalue="Application.GuitarLesson" />
-        <item itemvalue="Application.baekjoon" />
+        <item itemvalue="Application.Number11047" />
+        <item itemvalue="Application.Number14916" />
+        <item itemvalue="Application.Number1213" />
+        <item itemvalue="Application.Number2667" />
+        <item itemvalue="Application.Number1926" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +182,19 @@
       <workItem from="1673873482482" duration="1459000" />
       <workItem from="1674294378284" duration="2603000" />
       <workItem from="1674299119733" duration="4452000" />
-      <workItem from="1674312150276" duration="4013000" />
+      <workItem from="1674312150276" duration="9651000" />
+      <workItem from="1674373671498" duration="508000" />
+      <workItem from="1674383089506" duration="3920000" />
+      <workItem from="1674398007750" duration="6989000" />
+      <workItem from="1674442242030" duration="13713000" />
+      <workItem from="1674529819526" duration="14628000" />
+      <workItem from="1674559270157" duration="2833000" />
+      <workItem from="1674913280196" duration="2656000" />
+      <workItem from="1674975932149" duration="9293000" />
+      <workItem from="1674994789005" duration="5606000" />
+      <workItem from="1675084095209" duration="1926000" />
+      <workItem from="1675167597227" duration="7580000" />
+      <workItem from="1675586178368" duration="2834000" />
     </task>
     <servers />
   </component>
@@ -225,21 +261,56 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/bfs/Number1012.java</url>
+          <url>file://$PROJECT_DIR$/src/study/week3/bfs/Number1012.java</url>
           <line>36</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/bfs/Number1012.java</url>
+          <url>file://$PROJECT_DIR$/src/study/week3/bfs/Number1012.java</url>
           <line>53</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/bfs/Number18352.java</url>
+          <url>file://$PROJECT_DIR$/src/study/week3/bfs/Number18352.java</url>
           <line>70</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/week3/bfs/Number16173.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/week3/bfs/Number11724.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/week3/bfs/Number11724.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/week4/dfs/Number1260.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/week4/dfs/Number24479.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/week5/greedy/Number1213.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="checkedPaper[1]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
