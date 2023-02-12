@@ -51,3 +51,5 @@ public class Number1213 {
         System.out.println(front + mid + end);
     }
 }
+
+// 다른 풀이쓰..
