@@ -7,76 +7,66 @@ import java.util.StringTokenizer;
 
 public class Number20438 {
     public static void main(String[] args) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         StringTokenizer st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken()); // 학생 수
+        int K = Integer.parseInt(st.nextToken()); // 조는 학생 수
+        int Q = Integer.parseInt(st.nextToken()); // 출석 보낼 학생 수
+        int M = Integer.parseInt(st.nextToken()); // 주어질 구간 수
 
-        int studentNum = Integer.parseInt(st.nextToken()); // 총 학생 수
-        int sleepingStudentNum = Integer.parseInt(st.nextToken()); // 자는 학생 수
-        int sendStudentNum = Integer.parseInt(st.nextToken()); // 큐알 받을 학생 수
-        int sectionNum = Integer.parseInt(st.nextToken()); // 범위
+        int[] students = new int[N + 3];
 
-        boolean[] students = new boolean[5003];
+        boolean[] sleepStudents = new boolean[5005];
+        boolean[] checkStudents = new boolean[5005];
 
-        // 자는 학생 누구냐
+        // 자는 사람들 저장
         st = new StringTokenizer(br.readLine());
-        int[] sleepStudents = new int[sleepingStudentNum];
-
-        for (int i = 0; i < sleepingStudentNum; i++) {
-            int sleepStudent = Integer.parseInt(st.nextToken());
-            sleepStudents[i] = sleepStudent;
-        }
-
-        // 큐알 받을 학생들 누구냐
-        int[] sendStudents = new int[sendStudentNum];
-        st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < sendStudentNum; i++) {
-            int student = Integer.parseInt(st.nextToken());
-            sendStudents[i] = student;
-            students[student] = true;
-        }
-
-        // 숫자 범위
-        int[][] numArr = new int[sectionNum][2];
-        for (int i = 0; i < sectionNum; i++) {
-            st = new StringTokenizer(br.readLine());
-            numArr[i][0] = Integer.parseInt(st.nextToken());
-            numArr[i][1] = Integer.parseInt(st.nextToken());
-        }
-
-        int count = 0;
-        int finalNum = studentNum + 2;
-        while (true) {
-            count++;
-
-            if (count > finalNum) {
+        for (int i = 0; i < K; i++) {
+            if (!st.hasMoreTokens()) {
                 break;
             }
+            int sleepStudent = Integer.parseInt(st.nextToken());
+            sleepStudents[sleepStudent] = true;
+        }
 
-            for (int i = 0; i < sendStudents.length; i++) {
-                int checkOkStudent = (sendStudents[i] * count);
-                students[checkOkStudent] = true;
+        // 큐알 받은 사람들 저장
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < Q; i++) {
+            if (!st.hasMoreTokens()) {
+                break;
             }
-        }
-
-        // 자는 학생 거르기
-        for (int i = 0; i < sleepStudents.length; i++) {
-            students[sleepStudents[i]] = false;
-        }
-
-        // 답 출력
-        int answer = 0;
-
-        for (int i = 0; i < sectionNum; i++) {
-            int startNum = numArr[i][0];
-            int endNum = numArr[i][1];
-
-            for (int j = startNum; j <= endNum; j++) {
-                if (!students[j]) {
-                    answer += 1;
+            int checkedStudent = Integer.parseInt(st.nextToken());
+            if (sleepStudents[checkedStudent]) {
+                continue;
+            }
+            int add = checkedStudent;
+            while (checkedStudent <= (N + 2)) {
+                if (!sleepStudents[checkedStudent]) {
+                    checkStudents[checkedStudent] = true;
                 }
+                checkedStudent += add;
             }
         }
 
-        System.out.println(answer);
+        for (int i = 3; i < (N + 3); i++) {
+            int notAnswerStudent = 0;
+            if (checkStudents[i]) {
+                notAnswerStudent = 0;
+            } else {
+                notAnswerStudent = 1;
+            }
+            students[i] = students[i - 1] + notAnswerStudent;
+        }
+
+        // 구간만큼 학생 수 세기
+        for (int i = 0; i < M; i++) {
+            st = new StringTokenizer(br.readLine());
+            int start = Integer.parseInt(st.nextToken());
+            int end = Integer.parseInt(st.nextToken());
+
+            System.out.println(students[end] - students[start - 1]);
+        }
     }
 }

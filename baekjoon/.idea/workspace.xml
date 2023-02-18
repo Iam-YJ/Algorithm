@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8405bec5-c395-45cb-b137-aa7e166403ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekjoon/study/week7/accumulate/Number20438.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekjoon/study/week7/accumulate/Number20438.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/week7/accumulate/Number20438.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/study/week7/accumulate/Number20438_origin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,26 +55,13 @@
       <recent name="bruteforce" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Number16510">
+  <component name="RunManager" selected="Application.Number20438_origin">
     <configuration name="Number1074" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.week6.divideandconquer.Number1074" />
       <module name="baekjoon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.week6.divideandconquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Number1417" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.week5.greedy.Number1417" />
-      <module name="baekjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.week5.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Number20438_origin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.week7.accumulate.Number20438_origin" />
+      <module name="baekjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.week7.accumulate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Number16510" />
+        <item itemvalue="Application.Number20438_origin" />
         <item itemvalue="Application.Number20438" />
+        <item itemvalue="Application.Number16510" />
         <item itemvalue="Application.Number1074" />
         <item itemvalue="Application.Number1780" />
-        <item itemvalue="Application.Number1417" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +183,9 @@
       <workItem from="1676176233074" duration="10938000" />
       <workItem from="1676196804375" duration="2498000" />
       <workItem from="1676292524520" duration="2304000" />
-      <workItem from="1676553416242" duration="9443000" />
+      <workItem from="1676553416242" duration="9747000" />
+      <workItem from="1676600204034" duration="1419000" />
+      <workItem from="1676698730549" duration="9000000" />
     </task>
     <servers />
   </component>
@@ -298,9 +302,14 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/study/week7/accumulate/Number20438.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="76" />
+          <url>file://$PROJECT_DIR$/src/study/week7/accumulate/Number20438_origin.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/study/week7/accumulate/Number20438_origin.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
